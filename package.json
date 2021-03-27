@@ -6,7 +6,7 @@
   "author": "Jonathan Santos <brjs.santos@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rollup --config",
+    "build": "rollup -c rollup.config.ts",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
